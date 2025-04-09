@@ -1,0 +1,75 @@
+{
+  "name": "Bot de Viagens",
+  "description": "Um assistente virtual para ajudar usuários com informações sobre viagens.",
+  "language": "pt-BR",
+  "dialogs": [
+    {
+      "id": "main",
+      "triggers": [
+        "início",
+        "olá",
+        "oi",
+        "começar"
+      ],
+      "actions": [
+        {
+          "type": "SendActivity",
+          "text": "Olá! Sou o Bot de Viagens. Em que posso te ajudar hoje?"
+        },
+        {
+          "type": "ChoiceInput",
+          "prompt": "Escolha uma das opções:",
+          "choices": [
+            "Sugestões de destinos",
+            "Informações sobre passagens",
+            "Dicas de viagem",
+            "Clima do destino"
+          ],
+          "property": "turn.opcaoSelecionada"
+        },
+        {
+          "type": "SwitchCondition",
+          "value": "=turn.opcaoSelecionada",
+          "cases": [
+            {
+              "value": "Sugestões de destinos",
+              "actions": [
+                {
+                  "type": "SendActivity",
+                  "text": "Você pode visitar lugares incríveis como Paris, Tóquio, Rio de Janeiro, Lisboa ou Nova York!"
+                }
+              ]
+            },
+            {
+              "value": "Informações sobre passagens",
+              "actions": [
+                {
+                  "type": "SendActivity",
+                  "text": "Você pode buscar passagens em sites como Decolar, Kayak ou diretamente nas companhias aéreas."
+                }
+              ]
+            },
+            {
+              "value": "Dicas de viagem",
+              "actions": [
+                {
+                  "type": "SendActivity",
+                  "text": "Sempre leve documentos atualizados, verifique a previsão do tempo e leve um adaptador universal!"
+                }
+              ]
+            },
+            {
+              "value": "Clima do destino",
+              "actions": [
+                {
+                  "type": "SendActivity",
+                  "text": "Informe o destino e eu posso te dizer como está o clima lá agora!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
