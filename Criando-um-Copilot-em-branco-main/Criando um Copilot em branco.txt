@@ -1,0 +1,27 @@
+Desafio - Criando meu primeiro Copilot no Microsoft Copilot Studio
+
+Descrição:
+Durante a demonstração prática no Microsoft Copilot Studio, tive a oportunidade de explorar os recursos fundamentais para a criação e personalização de um Copilot. Abaixo, apresento um resumo do que aprendi durante essa atividade.
+
+O que aprendi:
+
+1. Criar um Copilot em branco:
+- No início, foi possível aprender a criar um Copilot básico, estruturado para se adaptar às necessidades específicas do projeto.
+- Um Copilot em branco serve como ponto de partida, no qual é possível adicionar funcionalidades, regras de comportamento e objetivos personalizados.
+
+2. Customizar um tópico:
+- Foi possível configurar tópicos para guiar as conversas de maneira estruturada.
+- Isso inclui definir intenções específicas (como responder dúvidas, auxiliar em tarefas ou oferecer dicas) e configurar fluxos de diálogo para que o Copilot seja claro e relevante.
+
+3. Personalizar mensagens de erro de tópico:
+- As mensagens de erro foram customizadas para oferecer uma experiência mais amigável e funcional quando algo não sai como planejado.
+- Por exemplo, ao invés de apenas exibir "Erro", foram implementadas mensagens úteis e empáticas, como:
+  "Desculpe, parece que algo deu errado. Vamos tentar novamente?"
+
+4. Como as respostas com GenAI podem impactar seu Copilot:
+- Com as respostas geradas por IA Generativa (GenAI), foi possível enriquecer as interações ao oferecer respostas criativas e relevantes.
+- Isso aumentou a capacidade do Copilot de lidar com cenários variados, mas também trouxe a necessidade de curadoria.
+- A qualidade pode diminuir se as respostas forem muito amplas, imprecisas ou inadequadas ao contexto. Por isso, o ajuste dos parâmetros de IA foi essencial para manter a qualidade.
+
+Conclusão:
+Esses aprendizados ajudaram na construção de um Copilot eficaz, funcional e com personalidade, alinhado às necessidades específicas do projeto.
